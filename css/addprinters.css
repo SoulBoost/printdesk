@@ -1,0 +1,10 @@
+.cont {
+    height: 300px;
+    width: 700px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    display: block;
+  }
+      

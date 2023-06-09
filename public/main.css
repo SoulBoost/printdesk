@@ -1,0 +1,96 @@
+body{margin-top:20px;
+    background-color: #24242c;
+}
+
+.card {
+    min-width: 0;
+    margin: 20px 10px;
+    width: 100%;    
+    background: #0C0C0C;
+    color: #696969;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.card .card-img-container .card-img {
+  background-size: cover;
+  background-position: top center;
+  display: block;
+  height: 250px;
+}
+
+.card:hover {
+  transform: scale(0.8); /* Увеличиваем масштаб */
+}
+
+.card .card-img {
+  height: 250px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card .card-img-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.card .card-content {
+  padding: 20px 20px 40px;
+  text-align: center;
+}
+
+.card .card-meta {
+  font-size: 12px;
+}
+
+.card .meta-box {
+  margin-right: 20px;
+}
+
+.card .card-content h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.card h2 a {
+  color: #D0D0D0;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+a{
+    text-decoration:none;    
+}
+
+.card:hover h2 a {
+  color: rgb(231, 82, 82);
+}
+
+.card .meta-tags a:hover {
+  color: #FFF;
+}
+.card .meta-tags .tag {
+  background: #DD1B16;
+  color: #f9c7c6;
+}
+.card .meta-tags a:last-child {
+  margin-right: 0;
+  border-bottom-right-radius: 5px;
+}
+.card .meta-tags a:first-child {
+  border-top-left-radius: 5px;
+}
+.card .meta-tags a {
+  display: inline-block;
+  padding: 3px 8px;
+  color: #FFF;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}

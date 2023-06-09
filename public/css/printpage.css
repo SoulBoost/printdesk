@@ -1,0 +1,16 @@
+body{
+    background-color:rgba(248, 245, 248, 0.8) !important;
+    COLOR:#938b81;  
+
+}
+
+.card {
+    background-color:rgba(244, 248, 248, 0.8);
+    /* width: 500px; */
+}
+.modal-body {
+    color:black;
+}
+/* .container {
+     width: 500px;
+} */
