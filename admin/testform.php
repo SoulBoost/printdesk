@@ -31,12 +31,16 @@
                 <div class="input-group flex-nowrap mt-2">
                     <span class="input-group-text" id="addon-wrapping">Доменное название принтера</span>
                     <input type="text" class="form-control" placeholder="Пример: VOL-32-HP402" name="nameprint" aria-describedby="addon-wrapping" required>
+                    <span class="input-group-text" id="addon-wrapping">ID</span>
+                    <input type="number" class="form-control" placeholder="ID = № принтера" name="ID" title="ID должен быть равен номеру принтера. Влияет на расположение принтера в списке " aria-describedby="addon-wrapping" required>
                 </div>
+
+                
 
 
             <div class="input-group flex-nowrap mt-2">
                     <span class="input-group-text" id="addon-wrapping">IP address:</span>
-                    <input type="text" class="form-control" placeholder="Пример: 10.53.14.23" name="IP" aria-describedby="addon-wrapping" required>
+                    <input type="text" class="form-control" placeholder="Пример: 10.53.14.23" name="IP" aria-describedby="addon-wrapping", title = "Можно не заполнять, так как может постоянно меняться">
                 </div>
 
                 <div class="input-group mb-3 mt-2">
